@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Baloo 2', 'helvetica', cursive;
+    margin: 0;
+}
+.container {
+    max-width: 1000px;
+    margin: 15px auto;
+}
+/* header */
+header {
+    background-color: #7d4ce0;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+    font-weight: 700;
+}
+header h2 {
+    margin: 0;
+    font-size: 50px;
+}
+header .pagination p {
+    font-size: 20px;
+    margin: 0;
+}
+header .pagination {
+    display: flex;
+    gap: 10px;
+}
+header .pagination select {
+    outline: none;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 8px;
+    font-family: 'Baloo 2', 'helvetica', cursive;
+}
+
+/* cards */
+.pokemons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 4%;
+}
+.pokemons div {
+    border-radius: 10px;
+    width: 20%;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    background-color: #97979721;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    position: relative;
+}
+.pokemons div .order {
+    position: absolute;
+    top: 4px;
+    right: 8px;
+    font-size: 20px;
+    color: darkgray;
+    margin: 0;
+}
+.pokemons div img {
+    width: 100%;
+    transition: 1s;
+}
+.pokemons div:hover > img {
+    transform: scale(1.5);
+    
+}
+/* navigation */
+.navigation {
+    display: flex;
+    align-items: center;
+}
+.navigation .numbers {
+}
+.navigation .numbers span button {
+    /* font-size: 20px;
+    padding: 0 2px;
+    font-family: 'Baloo 2', 'helvetica'; */
+    font-size: 20px;
+    padding: 0 2px;
+    font-family: 'Baloo 2', 'helvetica';
+    background-color: #ffffff00;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 2px;
+}
+.navigation .numbers button:hover {
+    text-decoration: underline;
+}
+.navigation .numbers button:target {
+    text-decoration: underline;
+}
+.navigation > button {
+    font-size: 20px;
+    border: 0;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 700;
+    background-color: #fff;
+    border-radius: 6px;
+}
+.navigation > button:hover {
+    transform: scale(1.3);
+}

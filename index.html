@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="./pokemonIco.svg" />
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./custom.js" defer></script>
+    <title>Pokemos - Pagination</title>
+</head>
+<body>
+    <header>
+        <h2>PokeApi Page</h2>
+        <div class="pagination">
+            <p>Pagination</p>
+            <select id="pagination" onchange="changePg(value);">
+                <option value="40">40</option>
+                <option value="60">60</option>
+                <option value="80">80</option>
+            </select>
+        </div>
+        <div class="navigation">
+            <button onclick="prev()">‹</button>
+            <div class="numbers"></div>
+            <button onclick="next()">»</button>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="pokemons"></div>
+
+        </div>
+
+    </section>
+</body>
+</html>
