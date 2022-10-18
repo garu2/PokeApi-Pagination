@@ -11,17 +11,18 @@
 </head>
 <body>
     <header>
-        <h2>PokeApi Page</h2>
-        <div class="pagination">
-            <p>Pagination</p>
-            <select id="pagination" onchange="changePg(value);">
+        <!-- <h2>PokeApi Page</h2> -->
+        <img src="./hero.png" alt="">
+        <div class="limit">
+            <p>Por Página</p>
+            <select id="limit" onchange="changePg(value);">
                 <option value="40">40</option>
                 <option value="60">60</option>
                 <option value="80">80</option>
             </select>
         </div>
         <div class="navigation">
-            <button onclick="prev()">‹</button>
+            <button onclick="prev()">«</button>
             <div class="numbers"></div>
             <button onclick="next()">»</button>
         </div>
@@ -33,5 +34,6 @@
         </div>
 
     </section>
+    <footer></footer>
 </body>
 </html>

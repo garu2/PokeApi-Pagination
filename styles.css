@@ -23,15 +23,16 @@ header h2 {
     margin: 0;
     font-size: 50px;
 }
-header .pagination p {
+header .limit p {
     font-size: 20px;
     margin: 0;
 }
-header .pagination {
+header .limit {
     display: flex;
     gap: 10px;
+    margin-top: 16px;
 }
-header .pagination select {
+header .limit select {
     outline: none;
     font-size: 20px;
     border: 0px;
@@ -80,8 +81,11 @@ header .pagination select {
 .navigation {
     display: flex;
     align-items: center;
+    margin-top: 2%;
 }
 .navigation .numbers {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .navigation .numbers span button {
     /* font-size: 20px;
@@ -97,10 +101,8 @@ header .pagination select {
     margin: 0 2px;
 }
 .navigation .numbers button:hover {
-    text-decoration: underline;
-}
-.navigation .numbers button:target {
-    text-decoration: underline;
+    border-radius: 25px;
+    box-shadow: rgb(253 253 253 / 34%) 0px 0px 0px 2px;
 }
 .navigation > button {
     font-size: 20px;
@@ -113,4 +115,13 @@ header .pagination select {
 }
 .navigation > button:hover {
     transform: scale(1.3);
+}
+.ress button{
+    box-shadow: rgb(253 253 253 / 34%) 0px 0px 0px 2px;
+    border-radius: 25px;
+} 
+/* footer */
+footer {
+    padding: 3% 0;
+    background-color: #7d4ce0;
 }
