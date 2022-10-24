@@ -1,11 +1,11 @@
-# 🎬Search-Movies-React
+# 🔙1️⃣2️⃣3️⃣🔜Pagination Pokemons PokeApi
 ![image](https://res.cloudinary.com/dqd5x0s7w/image/upload/v1666573188/github/appPokePagination_nnyxtw.png)
 
 ## 🚀DEMO
- [Deploy](#)
+ [Deploy](https://pokeapi-pagination.vercel.app/)
 
 ## 💻Tutorial
-[YouTube](#)
+[YouTube](https://youtu.be/LQMoVAhzWSI)
 
 ## 📦Getting Started
 ```
