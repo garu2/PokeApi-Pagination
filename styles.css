@@ -88,9 +88,6 @@ header .limit select {
     margin-right: 10px;
 }
 .navigation .numbers span button {
-    /* font-size: 20px;
-    padding: 0 2px;
-    font-family: 'Baloo 2', 'helvetica'; */
     font-size: 20px;
     padding: 0 2px;
     font-family: 'Baloo 2', 'helvetica';
@@ -116,7 +113,7 @@ header .limit select {
 .navigation > button:hover {
     transform: scale(1.3);
 }
-.ress button{
+.current button{
     box-shadow: rgb(253 253 253 / 34%) 0px 0px 0px 2px;
     border-radius: 25px;
 } 
@@ -124,4 +121,15 @@ header .limit select {
 footer {
     padding: 3% 0;
     background-color: #7d4ce0;
+}
+
+p.author {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+p.author a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #000;
 }
