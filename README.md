@@ -1,5 +1,5 @@
 # 🔙1️⃣2️⃣3️⃣🔜Pagination Pokemons PokeApi
-![image](https://res.cloudinary.com/dqd5x0s7w/image/upload/v1666573188/github/appPokePagination_nnyxtw.png)
+![image](https://res.cloudinary.com/dqd5x0s7w/image/upload/v1677681071/github/pokeapi-min_of85sg.png)
 
 ## 🚀DEMO
  [Deploy](https://pokeapi-pagination.vercel.app/)
