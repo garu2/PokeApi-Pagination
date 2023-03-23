@@ -5,7 +5,9 @@
  [Deploy](https://pokeapi-pagination.vercel.app/)
 
 ## 💻Tutorial
-[YouTube](https://youtu.be/LQMoVAhzWSI)
+<a href='https://youtu.be/LQMoVAhzWSI' target='_blank'>
+    <img width='30%' src='https://img.youtube.com/vi/LQMoVAhzWSI/mqdefault.jpg' alt='Pagination Pokemons PokeApi' />
+</a>
 
 ## 📦Getting Started
 ```
