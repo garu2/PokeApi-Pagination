@@ -14,10 +14,14 @@
 git clone https://github.com/garu2/PokeApi-Pagination.git
 ```
 ```
-cd Search-Movies-React
+cd PokeApi-Pagination
 ```
 ```
-open index.html
+npm install
+```
+```
+```
+npm run dev
 ```
 ## 🗃API
 * [PokeApi](https://pokeapi.co/docs/v2)
