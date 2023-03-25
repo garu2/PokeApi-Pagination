@@ -20,7 +20,6 @@ cd PokeApi-Pagination
 npm install
 ```
 ```
-```
 npm run dev
 ```
 ## 🗃API
